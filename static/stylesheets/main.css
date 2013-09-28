@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url(/static/fonts/Ubuntu-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url(/static/fonts/Ubuntu-Light.ttf) format('truetype');
+}
+
+/* line 4, sass/_tipography.sass */
+.font-light {
+  font-family: "Ubuntu Light";
+}
+
+/* line 7, sass/_tipography.sass */
+.text-xxx {
+  font-size: 26px;
+}
+
+/* line 10, sass/_tipography.sass */
+.text-big {
+  font-size: 20px;
+}
+
+/* line 13, sass/_tipography.sass */
+.text-large {
+  font-size: 16px;
+}
+
+/* line 16, sass/_tipography.sass */
+.text-normal {
+  font-size: 14px;
+}
+
+/* line 19, sass/_tipography.sass */
+.text-small {
+  font-size: 12px;
+}
+
+/* line 22, sass/_tipography.sass */
+.text-mini {
+  font-size: 10px;
+}
+
+/* line 1, sass/_style.sass */
+body {
+  background: url(/static/img/bkgrnd.jpg);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* line 6, sass/_style.sass */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+}
+
+/* line 12, sass/_style.sass */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* line 16, sass/_style.sass */
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+}
+
+/* line 20, sass/_style.sass */
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+/* line 24, sass/_style.sass */
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* line 29, sass/_style.sass */
+.marketing {
+  margin: 60px 0;
+}
+
+/* line 32, sass/_style.sass */
+.marketing p + h4 {
+  margin-top: 28px;
+}
